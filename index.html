@@ -1,0 +1,142 @@
+<html>
+	<head>
+		<title>Борис Митев - Web Developer</title>
+		<meta charset="UTF-8">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<!-- <script>
+			alert('My first JavaScript');
+			console.log(document.querySelectorAll('section header nav a'));
+			console.log(document.querySelectorAll('section header nav a')[2]);
+		</script> -->
+	</head>
+	<body>
+		<section>
+			<header>
+				<nav>
+					<a href="#profile">Profile</a>
+					<a href="#experience">Experience</a>
+					<a href="#education">Education</a>
+					<a href="#languages">Languages</a>
+					<a href="#software">Software</a>
+					<a href="#interests">Interests</a>
+				</nav>
+				<div>
+					<img src="images/photo.jpg">
+					<h1>Борис<br>Митев</h1>
+					<p>Web Developer</p>
+				</div>
+				<aside>
+					<a name="profile"></a>
+					<h2 class="profile">Profile</h2>
+					<ul>
+						<li class="address">бул. Витоша 23, вх. 2<br>1000 София<br>България<br><br></li>
+						<li class="phone">+359 888 123 456</li>
+						<li class="email">boris@somemail.com</li>
+					</ul>
+				</aside>
+			</header>
+			<main>
+				<div>
+					<a name="experience"></a>
+					<h2 class="experience">Experience</h2>
+					<dl>
+						<dt>Dec 2012 - Сега</dt>
+						<dd>
+							<h3>Milestone</h3>
+							<p>Engineering Manager</p>
+							Some text describing the position. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula orci efficitur fringilla porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus congue risus metus, quis aliquet purus porttitor ac.
+						</dd>
+						<dt>May 2010 - Dec 2012</dt>
+						<dd>
+							<h3>Mail.bg</h3>
+							<p>Lead Developer</p>
+							Projects and responsibilities go here. Cras tristique dictum tellus vel scelerisque. Suspendisse quis laoreet ligula. Nunc lobortis gravida odio in pharetra. Integer suscipit eros auctor, cursus elit lobortis, consectetur ex. Aliquam fermentum sagittis purus, id suscipit quam sodales vel.
+						</dd>
+						<dt>Jan 2007 - May 2010</dt>
+						<dd>
+							<h3>Sportal.bg</h3>
+							<p>CTO</p>
+							Position description details. Aliquam consectetur elit augue, a iaculis massa pellentesque sed. Quisque consectetur quam non felis sodales, ac feugiat sem vestibulum.
+						</dd>
+					</dl>
+					<a name="education"></a>
+					<h2 class="education">Education</h2>
+					<dl>
+						<dt>1997 - 2002</dt>
+						<dd>
+							<h3>Sofia University</h3>
+							<p>Master Business Administration</p>
+						</dd>
+						<dt>1992 - 1997</dt>
+						<dd>
+							<h3>German Language School Sofia</h3>
+							<p>German, English, Russian</p>
+						</dd>
+					</dl>
+				</div>
+				<aside>
+					<a name="languages"></a>
+					<h2 class="languages">Languages</h2>
+					<ol>
+						<li class="rank6">English</li>
+						<li class="rank5">German</li>
+						<li class="rank3">Russian</li>
+						<li class="rank7">Bulgarian</li>
+					</ol>
+					<a name="software"></a>
+					<h2 class="software">Software</h2>
+					<ol>
+						<li class="rank7">JavaScript</li>
+						<li class="rank6">HTML</li>
+						<li class="rank7">CSS</li>
+						<li class="rank2">Swift</li>
+						<li class="rank3">C#</li>
+						<li class="rank5">Photoshop</li>
+					</ol>
+					<a name="interests"></a>
+					<h2 class="interests">Interests</h2>
+					<ul>
+						<li class="sports">Sports</li>
+						<li class="travel">Travel</li>
+						<li class="photography">Photography</li>
+						<li class="theater">Theater</li>
+					</ul>
+				</aside>
+			</main>
+		</section>
+		<script>
+			var value = 12;
+			alert('My first JavaScript');
+
+			function myFunction(functionParameter){
+				console.log('Function executed!');
+				console.log(functionParameter);
+			}
+
+			console.log(document.querySelectorAll('section header nav a'));
+			console.log(document.querySelectorAll('section header nav a')[2]);
+			// console.log(document.querySelectorAll('header nav a'));
+			// console.log(document.querySelectorAll('header nav a[href="#education"]'));
+
+			var cars = ['Honda','Mazda','Toyota'];
+			var object = {
+				name:'Boris Mitev',
+				age:37,
+				license:true,
+				cars:cars,
+			};
+
+			function Profile(){
+				console.log(object);
+			}
+
+			Profile();
+
+			var value = "Примерен текст";
+			var newValue = value + '. Още текст...';
+			console.log(value);
+			console.log(newValue);
+			
+		</script>
+	</body>
+</html>
